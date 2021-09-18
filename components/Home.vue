@@ -20,8 +20,7 @@
                                             <div >
                                                 <ul v-for ="(data, index) in name" :key="index">
                                                     <li>
-                                                      {{data.title}} {{data.first}} {{data.last}} 
-                                                      
+                                                      {{data.title}} {{data.first}} {{data.last}}
                                                     </li>
                                                    
                                                 </ul>
